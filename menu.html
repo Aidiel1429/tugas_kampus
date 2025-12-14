@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2 - Menu</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            background-color: #016B61;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .column {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Menu</h1>
+    </div>
+
+    <div class="content">
+        <div class="column">
+            <p>Nasi Goreng</p>
+        </div>
+        <div class="column">
+            <p>Mie Goreng</p>
+        </div>
+        <div class="column">
+            <p>Soto Ayam</p>
+        </div>
+        <div class="column">
+            <p>Gado-Gado</p>
+        </div>
+        <div class="column">
+            <p>Sate Ayam</p>
+        </div>
+        <div class="column">
+            <p>Lumpia</p>
+        </div>
+        <div class="column">
+            <p>Perkedel</p>
+        </div>
+        <div class="column">
+            <p>Bakso</p>
+        </div>
+        <div class="column">
+            <p>Rendang Daging</p>
+        </div>
+    </div>
+</body>
+
+</html>

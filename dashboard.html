@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 3 - Dashboard Mini</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            background-color: #016B61;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .column {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .column h3 {
+            margin-top: 10px;
+            color: #016B61;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Dashboard</h1>
+    </div>
+
+    <div class="content">
+        <div class="column">
+            <h1>Nilai Tugas</h1>
+            <h3>90</h3>
+        </div>
+        <div class="column">
+            <h1>Nilai UTS</h1>
+            <h3>90</h3>
+        </div>
+        <div class="column">
+            <h1>Nilai UAS</h1>
+            <h3>90</h3>
+        </div>
+        <div class="column">
+            <h1>Rata-Rata</h1>
+            <h3>90</h3>
+        </div>
+    </div>
+</body>
+
+</html>
